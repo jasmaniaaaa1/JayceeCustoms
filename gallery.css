@@ -1,0 +1,36 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  display: inline;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li a:hover {
+  background-image: url("http://www.textures4photoshop.com/tex/thumbs/watercolor-paint-background-free-thumb32.jpg");
+  color: white;
+  font-weight: bold;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}

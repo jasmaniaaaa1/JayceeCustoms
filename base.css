@@ -1,0 +1,206 @@
+.all {
+  color: white;
+  height: auto;
+  background: linear-gradient(to bottom, #0bda87 0%, #34b27f 51%, #5c8a77 85%)
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255,255,255,0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li a:hover {
+  background-image: url("http://www.textures4photoshop.com/tex/thumbs/watercolor-paint-background-free-thumb32.jpg");
+  color: white;
+  font-weight: bold;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 24%;
+  max-width: 24%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 40px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  ul li {
+    float: none;
+  }
+  .price {
+    width: 100%;
+  }
+}
+
+
+#smedia {
+  padding-top: 40px;
+  color: white;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  font-size: 38pt;
+}
+
+.icon {
+  max-width: 35%;
+  height: auto;
+  display: inline;
+}
+
+.social {
+  float: left;
+}
+
+.social.left {
+  width: 25%;
+  padding: 20px;
+}
+
+.social.right {
+  width: 70%;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+table {
+  width: 100%
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+.social.left img {
+  max-width: 100%;
+  height: auto;
+}
+
+.social.right img {
+  float: left;
+  max-width: 20%;
+  height: auto;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35px;
+}
+
+#pricing {
+  text-align: center;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 40pt;
+}
+
+.price {
+  float: left;
+  width: 50%;
+}
+
+.left {
+  text-align: center;
+}
+
+.right {
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 20pt;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17pt;
+  font-weight: bold;
+}
+
+.prices {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+}
+
+.home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: 20%;
+}
