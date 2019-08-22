@@ -148,10 +148,6 @@ td {
   font-size: 40pt;
 }
 
-.price {
-  float: left;
-  width: 50%;
-}
 
 .left {
   text-align: center;
@@ -178,10 +174,6 @@ h4 {
   font-weight: bold;
 }
 
-.prices {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14pt;
-}
 
 .home {
   display: block;
